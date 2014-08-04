@@ -20,7 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"MyFrameworkResources" withExtension:@"bundle"]];
+    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"MyFrameWork" withExtension:@"bundle"]];
     AdViewController *adView = [[AdViewController alloc] initWithNibName:@"AdViewController" bundle:bundle];
     [self.view addSubview:adView.view];
 }
